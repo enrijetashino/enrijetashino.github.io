@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.36.1" />
+  <meta name="author" content="Enrijeta Shino">
+  <meta name="description" content="Assistant Professor">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+  <link rel="stylesheet" href="/css/green.css">
+  
+
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Enrijeta Shino">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Enrijeta Shino">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="/project/classes-in-python/">
+
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Montserrat:300,400">
+  
+
+<title>Classes in Python - Enrijeta Shino</title>
+<meta property="og:title" content="Classes in Python - Enrijeta Shino">
+<meta property="og:type" content="article">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="http://xvrdm.github.io/images/" >
+  
+  
+
+<meta property="description" content="Article posted by Enrijeta Shino, on Wednesday, February 28nd, 2018">
+<meta property="og:description" content="Article posted by Enrijeta Shino, on Wednesday, February 28nd, 2018">
+
+
+<meta name="twitter:creator" content="">
+<meta name="twitter:site" content="">
+
+  <title>Classes in Python | Enrijeta Shino</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Enrijeta Shino</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#publications">
+            
+            <span>Publications</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#working">
+            
+            <span>Working Papers</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
+
+  
+
+  <div class="article-container">
+
+    <div class="pub-title">
+      <h1 itemprop="name">Classes in Python</h1>
+      <span class="pub-authors" itemprop="author">&nbsp;</span>
+      <span class="pull-right">
+        
+
+      </span>
+    </div>
+
+    
+
+    <div class="article-style" itemprop="articleBody">
+      <div id="TOC">
+<ul>
+<li><a href="#the-self"><span class="toc-section-number">1</span> The self</a></li>
+<li><a href="#the-init-method"><span class="toc-section-number">2</span> The <strong>init</strong> method</a></li>
+<li><a href="#accees-control"><span class="toc-section-number">3</span> accees control</a></li>
+<li><a href="#class-variables-and-object-variables"><span class="toc-section-number">4</span> Class variables and Object variables</a></li>
+<li><a href="#inheritance"><span class="toc-section-number">5</span> Inheritance</a></li>
+</ul>
+</div>
+
+<p>Classes and objects are the two main aspecs of object oriented programming. A class creates a new type where objects are instances of the class.</p>
+<p>Objects can store data using ordinary variables that belong to the object. Variables that belong to an object or class are called as fields. Objects can also have functionality by using functions that belong to a class. Such functions are called methods of the class. This terminology is important because it helps us to differentiate between functions and variables which are separate by itself and those which belong to a class or object. Collectively, the fields and methods can be referred to as the attributes of that class.</p>
+<div id="the-self" class="section level1">
+<h1><span class="header-section-number">1</span> The self</h1>
+<p>Class methods have only one specific difference from ordinary functions - they must have an extra first name that has to be added to the beginning of the parameter list, but you do not give a value for this parameter when you call the method, Python will provide it. This particular variable refers to the object itself, and by convention, it is given the name self.</p>
+</div>
+<div id="the-init-method" class="section level1">
+<h1><span class="header-section-number">2</span> The <strong>init</strong> method</h1>
+<p>There are many method names which have special significance in Python classes. We will see the significance of the __init__ method now.
+The __init__ method is run as soon as an object of a class is instantiated. The method is useful to do any initialization you want to do with your object.</p>
+<pre class="python"><code>class Human(object):
+    def __init__(self, name):
+        self.name = name
+    def sayHi(self):
+        &#39;&#39;&#39;Greeting by the person.
+        Really, that&#39;s all it does.&#39;&#39;&#39;
+        print(&#39;Hi, my name is %s.&#39; % self.name)
+human_j = Human(&quot;John&quot;)
+human_j.sayHi()</code></pre>
+<pre><code>## Hi, my name is John.</code></pre>
+<pre class="python"><code>human_j.name=&#39;Jack&#39;
+human_j.sayHi()</code></pre>
+<pre><code>## Hi, my name is Jack.</code></pre>
+</div>
+<div id="accees-control" class="section level1">
+<h1><span class="header-section-number">3</span> accees control</h1>
+<p>We see from last example name attribute can be easily modified. We can add two underline __name to control access.</p>
+<pre class="python"><code>class Human(object):
+    def __init__(self, name):
+        self.__name = name
+    def walk(self):
+        print(self.name + &quot; is walking&quot;)
+    def get_name(self):
+        return self.__name
+    def set_name(self, name):
+        self.__name = name
+human_a = Human(&quot;Alan&quot;)
+print(human_a.get_name())</code></pre>
+<pre><code>## Alan</code></pre>
+<pre class="python"><code>human_a.set_name(&quot;Alex&quot;)
+print(human_a.get_name())</code></pre>
+<pre><code>## Alex</code></pre>
+</div>
+<div id="class-variables-and-object-variables" class="section level1">
+<h1><span class="header-section-number">4</span> Class variables and Object variables</h1>
+<p>There are two types of fields - which are classified depending on whether the class or the object owns the variables respectively.</p>
+<p><em>Class variables</em> are shared in the sense that they are accessed by all objects (instances) of that class. There is only copy of the class variable and when any one object makes a change to a class variable, the change is reflected in all the other instances as well.</p>
+<p><em>Object variables</em> are owned by each individual object/instance of the class. In this case, each object has its own copy of the field i.e. they are not shared and are not related in any way to the field by the samen name in a different instance of the same class. An example will make this easy to understand.</p>
+<pre class="python"><code>class Robot:
+    &#39;&#39;&#39;Represents a robot, with a name.&#39;&#39;&#39;
+    #A class variable, counting the number of robots
+    population = 0
+    def __init__(self,name):
+        &#39;&#39;&#39;Initializes the data.&#39;&#39;&#39;
+        self.name = name
+        print(&#39;(Initialize {0})&#39;.format(self.name))
+        # When this person is created, the robot 
+        # adds to the population 
+        Robot.population += 1
+    def __del__(self):
+        &#39;&#39;&#39;I am dying.&#39;&#39;&#39;
+        print(&#39;{0} is being destroyed!&#39;.format(self.name))
+        Robot.population -= 1
+        if Robot.population == 0:
+            print(&#39;{0} was the last one.&#39;.format(self.name))
+        else:
+            print(&#39;There are still {0:d} robots working.&#39;.format(Robot.population))
+    def sayHi(self):
+        &#39;&#39;&#39;Greeting by the robot.
+        Yeah, they can do that.&#39;&#39;&#39;
+        print(&#39;Greetings, my master call me {0}.&#39;.format(self.name))
+    def howMany():
+        &#39;&#39;&#39;Prints the current population.&#39;&#39;&#39;
+        print(&#39;We have {0:d} robots.&#39;.format(Robot.population)) 
+    howMany = staticmethod(howMany)
+    
+droid1 = Robot(&#39;R2-D2&#39;)</code></pre>
+<pre><code>## (Initialize R2-D2)</code></pre>
+<pre class="python"><code>droid1.sayHi()</code></pre>
+<pre><code>## Greetings, my master call me R2-D2.</code></pre>
+<pre class="python"><code>Robot.howMany()</code></pre>
+<pre><code>## We have 1 robots.</code></pre>
+<pre class="python"><code>droid2 = Robot(&#39;C-3P0&#39;)</code></pre>
+<pre><code>## (Initialize C-3P0)</code></pre>
+<pre class="python"><code>droid2.sayHi()</code></pre>
+<pre><code>## Greetings, my master call me C-3P0.</code></pre>
+<pre class="python"><code>Robot.howMany()</code></pre>
+<pre><code>## We have 2 robots.</code></pre>
+<pre class="python"><code>print(&quot;Robots have finished their work. So let&#39;s destroy them.&quot;)</code></pre>
+<pre><code>## Robots have finished their work. So let&#39;s destroy them.</code></pre>
+<pre class="python"><code>del droid1</code></pre>
+<pre><code>## R2-D2 is being destroyed!
+## There are still 1 robots working.</code></pre>
+<pre class="python"><code>del droid2</code></pre>
+<pre><code>## C-3P0 is being destroyed!
+## C-3P0 was the last one.</code></pre>
+<pre class="python"><code>Robot.howMany()</code></pre>
+<pre><code>## We have 0 robots.</code></pre>
+</div>
+<div id="inheritance" class="section level1">
+<h1><span class="header-section-number">5</span> Inheritance</h1>
+<p>One of the major benefits of object oriented programming is reuse of code and one of the ways this is achieved is through the inheritance mechanism. Inheritance can be best imagined as implementing a type and subtype relationship between classes.</p>
+<pre class="python"><code>class SchoolMember:
+        &#39;&#39;&#39;Represents any school member.&#39;&#39;&#39;
+        def __init__(self, name, age):
+                self.name = name
+                self.age = age
+                print(&#39;(Initialized SchoolMember: %s)&#39; % self.name)
+        def tell(self):
+                &#39;&#39;&#39;Tell my details.&#39;&#39;&#39;
+                print(&#39;Name:&quot;%s&quot; Age:&quot;%s&quot;&#39; % (self.name, self.age))
+class Teacher(SchoolMember):
+        &#39;&#39;&#39;Represents a teacher.&#39;&#39;&#39;
+        def __init__(self, name, age, salary):
+                SchoolMember.__init__(self, name, age)
+                self.salary = salary
+                print (&#39;(Initialized Teacher: %s)&#39; % self.name)
+        def tell(self):
+                SchoolMember.tell(self)
+                print (&#39;Salary: &quot;%d&quot;&#39; % self.salary)
+class Student(SchoolMember):
+        &#39;&#39;&#39;Represents a student.&#39;&#39;&#39;
+        def __init__(self, name, age, marks):
+                SchoolMember.__init__(self, name, age)
+                self.marks = marks
+                print (&#39;(Initialized Student: %s)&#39; % self.name)
+        def tell(self):
+                SchoolMember.tell(self)
+                print (&#39;Marks: &quot;%d&quot;&#39; % self.marks)
+t = Teacher(&#39;Mr Byte&#39;, 40, 30000)</code></pre>
+<pre><code>## (Initialized SchoolMember: Mr Byte)
+## (Initialized Teacher: Mr Byte)</code></pre>
+<pre class="python"><code>s = Student(&#39;Mike&#39;, 22, 75)</code></pre>
+<pre><code>## (Initialized SchoolMember: Mike)
+## (Initialized Student: Mike)</code></pre>
+<pre class="python"><code>members = [t, s]
+for member in members:
+        member.tell() # works for both Teachers and Students</code></pre>
+<pre><code>## Name:&quot;Mr Byte&quot; Age:&quot;40&quot;
+## Salary: &quot;30000&quot;
+## Name:&quot;Mike&quot; Age:&quot;22&quot;
+## Marks: &quot;75&quot;</code></pre>
+</div>
+
+    </div>
+
+  </div>
+</article>
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="/project/functions-in-python/"><span
+      aria-hidden="true">&larr;</span> Functions in Python</a></li>
+    
+
+    
+  </ul>
+</nav>
+
+</div>
+
+
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2019 Enrijeta Shino &middot; 
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-114947995-1', 'auto');
+        ga('send', 'pageview');
+
+         
+        var links = document.querySelectorAll('a');
+        Array.prototype.map.call(links, function(item) {
+            if (item.host != document.location.host) {
+                item.addEventListener('click', function() {
+                    var action = item.getAttribute('data-action') || 'follow';
+                    ga('send', 'event', 'outbound', action, item.href);
+                });
+            }
+        });
+    </script>
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+
