@@ -96,14 +96,14 @@ h4, h5, h6 {
 
 a,
 h3.article-title a:hover {
-  color: #0095eb;
+  color: #9E1B32;
   text-decoration: none;
   transition: color 0.6s ease;
 }
 
 a:hover,
 a:focus {
-  color: #005181;
+  color: #9E1B32;
 }
 
 img,
@@ -444,7 +444,7 @@ article {
 }
 
 .article-metadata a:hover {
-  color: #0095eb;
+  color: #9E1B32;
 }
 
 .article-list-item {
@@ -532,7 +532,7 @@ article {
   line-height: normal;
   font-style: normal;
   font-size: 1rem;
-  color: #3170A5;
+  color: #9E1B32;
 }
 
 .pub-list-item .pub-publication {
@@ -583,7 +583,7 @@ article {
 
 #projects.home-section .project-tags {
   font-size: 0.75rem;
-  color: #9c9c9c;
+  color: #9E1B32;
 }
 
 #container-projects {
@@ -742,7 +742,7 @@ footer p {
 
 .site-footer,
 footer a#back_to_top i {
-  color: #899596;
+  color: #9E1B32;
 }
 
 /*************************************************
@@ -750,8 +750,8 @@ footer a#back_to_top i {
  **************************************************/
 
 .btn-primary {
-  border-color: #0095eb;
-  background: #0095eb;
+  border-color: #9E1B32;
+  background: #9E1B32;
 }
 
 .btn-primary:hover,
@@ -759,7 +759,7 @@ footer a#back_to_top i {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-  background: #0095eb;
+  background: #9E1B32;
 }
 
 /*************************************************
@@ -782,12 +782,12 @@ footer a#back_to_top i {
 
 .btn-toolbar .btn.btn-primary:hover,
 .btn-toolbar .btn.btn-primary:focus {
-  background-color: rgba(0,149,235,0.6);
+  background-color: rgba(158, 27, 50,0.6);
 }
 
 .btn-toolbar .btn.btn-primary:active,
 .btn-toolbar .btn.btn-primary.active {
-  background-color: rgba(0,89,175,1);
+  background-color: rgba(158, 27, 50,1);
 }
 
 /*************************************************
@@ -801,8 +801,8 @@ footer a#back_to_top i {
 }
 
 .btn-primary.btn-outline {
-  color: #0095eb;
-  border-color: #0095eb;
+  color: #9E1B32;
+  border-color: #9E1B32;
 }
 
 .btn-success.btn-outline {
@@ -1118,7 +1118,7 @@ div.alert a:hover {
 	position: relative;
 	padding: 10px 25px;
 
-	background-color: #4CC713;
+	background-color: #9E1B32;
 	color: white;
 
 	font-family: sans-serif;
@@ -1170,7 +1170,7 @@ div.alert a:hover {
 }
 
 .buttonDownload:hover:after {
-	border-top-color: #4CC713;
+	border-top-color: #9E1B32;
 	animation-play-state: running;
 }
 
