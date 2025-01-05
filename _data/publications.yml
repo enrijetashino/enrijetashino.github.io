@@ -37,7 +37,7 @@ publication_types:
 publications:
 
   - citation: |
-      Shino, Enrijeta, and Daniel A. Smith. "Timing the habit: Voter registration and turnout." Electoral Studies 51 (2018): 72-82.
+      Enrijeta Shino and Daniel A. Smith. "Timing the habit: Voter registration and turnout." Electoral Studies 51 (2018): 72-82.
     year: 2018
     type: peer-reviewed-paper
     venue: journal
@@ -45,14 +45,6 @@ publications:
     bibtex_id: ...
     bibtex: |
       ```
-      @article{shino2018timing,
-      title={Timing the habit: Voter registration and turnout},
-      author={Shino, Enrijeta and Smith, Daniel A},
-      journal={Electoral Studies},
-      volume={51},
-      pages={72--82},
-      year={2018},
-      publisher={Elsevier}
       }
       
       ```
