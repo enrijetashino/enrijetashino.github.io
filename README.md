@@ -1,6 +1,6 @@
 # Implementation guide to my personal website
 
-**Website:** [https://lalejini.com](https://lalejini.com)
+**Website:** [https://enrijetashino.github.io]
 
 This document is as much for future me as it is for anyone else, but anyone else
 is welcome to comment, file issues, yell at me for doing something boneheaded,
