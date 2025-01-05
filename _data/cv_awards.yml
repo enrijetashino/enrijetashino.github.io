@@ -1,31 +1,6 @@
 # cv_awards gives entries to the awards/fellowships/honors section of my CV
 
-- award: Computing Research Association (CRA) Outstanding Undergraduate Male Researcher, Honorable Mention
-  date: Awarded - Spring 2015
-  year: 2015
+- award: Award name
+  date: Award date
+  year: Award year
 
-- award: James Worth Bagley College of Engineering Student Hall of Fame
-  date: Awarded - Spring 2015
-  description: |
-    Awarded by the Bagley College of Engineering at Mississippi State University to
-    students who have demonstrated superior academic achievement, leadership, service,
-    and character.
-  year: 2015
-
-- award: Honorable Mention, Engineering Graduate Research Symposium Recognition for Outstanding Research
-  date: Awarded - Spring 2016
-  description: |
-    Awarded for my poster presentation titled, The Evolutionary Origins of Phenotypic Plasticity
-  year: 2016
-
-- award: Best Student Paper at the 2016 International Conference on the Synthesis and Simulation of Living Systems (ALIFE)
-  date: Awarded - Summer 2016
-  description: |
-    Awarded for our paper titled, The Evolutionary Origins of Phenotypic Plasticity
-  year: 2016
-
-- award: Honorable Mention, Engineering Graduate Research Symposium Recognition for Outstanding Research
-  date: Awarded - Spring 2018
-  description: |
-    Awarded for my poster presentation titled, SignalGP
-  year: 2018
