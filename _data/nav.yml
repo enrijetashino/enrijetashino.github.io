@@ -8,6 +8,6 @@
 # - title: "Blog"
 #   href: "/blog/"
 - title: "CV"
-  href: "/cv_eshino.pdf/"
+  href: ""/assets/cv_eshino.pdf""
 # - title: "Recommendation letters"
 #   href: "/rec-letters/"
