@@ -8,8 +8,8 @@ about_me: >
   To learn more, check out my [publications](https://enrijetashino.github.io/publications) 
   or feel free to reach out!
 
-about_me_img: "/imgs/me/2022-07-dolson-nahum-wedding.png"
+about_me_img: "/imgs/me/pictureofme.png"
 about_me_img_caption: |
-  (photo credit Arrae Photography)
+  (photo credit ...)
   
 ---
