@@ -9,7 +9,6 @@ about_me: >
   or feel free to reach out!
 
 about_me_img: "/imgs/me/pictureofme.png"
-about_me_img_caption: |
-  (photo credit ...)
+
   
 ---
