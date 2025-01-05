@@ -4,8 +4,8 @@
 publication_types:
   - type_id: pre-pub
     pretty: Pre-publication
-  - type_id: peer-reviewed-paper
-    pretty: Peer-reviewed papers
+  - type_id: peer-reviewed-article
+    pretty: Peer-Reviewed Articles
   - type_id: peer-reviewed-abstract
     pretty: Peer-reviewed abstracts
     overview: |
@@ -39,7 +39,7 @@ publications:
   - citation: |
       Enrijeta Shino and Daniel A. Smith. "Timing the habit: Voter registration and turnout." Electoral Studies 51 (2018): 72-82.
     year: 2018
-    type: peer-reviewed-paper
+    type: peer-reviewed-article
     venue: journal
     github_repository_link: ...
 
