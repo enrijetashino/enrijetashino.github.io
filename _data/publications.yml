@@ -38,7 +38,7 @@ publications:
 
   - citation: |
       Enrĳeta Shino and Christopher McCarty. “Telephone Survey Calling Patterns, Productivity, Survey
-      Responses, and their Effect on Measuring Public Opinion”. <em>Field Methods</em> 32.3 (2020)
+      Responses, and their Effect on Measuring Public Opinion”. <span style="font-weight: 300;">Field Methods</span> 32.3 (2020)
       doi: <https://doi.org/10.1177/1525822X20908281>
     year: 2020,
     type: peer-reviewed-article
@@ -46,7 +46,7 @@ publications:
     # github_repository_link: ...
 
   - citation: |
-      Enrijeta Shino and Daniel A. Smith. "Timing the habit: Voter registration and turnout." <em>Electoral Studies</em> 51 (2018): 72-82.
+      Enrijeta Shino and Daniel A. Smith. "Timing the habit: Voter registration and turnout." <span style="font-weight: 300;">Electoral Studies</span> 51 (2018): 72-82.
       doi: <https://doi.org/10.1016/j.electstud.2017.10.005>
     year: 2018,
     type: peer-reviewed-article
