@@ -21,7 +21,7 @@ publications:
   - citation: |
       Enrijeta Shino and Daniel A. Smith. (2025). Vote Method and Confidence in Elections.
     year: 2025
-    type: Peer-reviewed papers
+    type: peer-reviewed-paper
     venue: Political Research Quarterly
     bibtex: |
       @article{Shino2025,
@@ -36,7 +36,7 @@ publications:
   - citation: |
       M. V. Hood III, Seth C. McKee, Enrijeta Shino, and Daniel A. Smith. "Not a Teammate and Not a Fan: Probing the Identities of Unaffiliated Registered Voters." (2025)
     year: 2025
-    type: Peer-reviewed papers
+    type: peer-reviewed-paper
     venue: State Politics and Policy Quarterly
     bibtex: |
       @article{Hood2025,
@@ -49,7 +49,7 @@ publications:
   - citation: |
       Seth C. McKee, M. V. Hood III, Robert Lupton, Enrijeta Shino, and Daniel A. Smith. "The Changing South in Presidential Elections." Party Politics (2024), Forthcoming.
     year: 2024
-    type: Peer-reviewed papers
+    type: peer-reviewed-paper
     venue: Party Politics
     bibtex: |
       @article{McKee2024,
