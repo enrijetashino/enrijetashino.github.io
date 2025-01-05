@@ -58,7 +58,14 @@ publications:
 
   - citation: | 
     Seth C. McKee, M. V. Hood III, Robert Lupton, Enrĳeta Shino, and Daniel A. Smith. “The Changing South in Presidential Elections”. Party Politics (2024), Forthcoming.
+    year: 2024
+    type: peer-reviewed-paper
+    venue: Party Politics 
+    bibtex: |
+      ```
       
+      ```
+    
   - citation: |
       Enrĳeta Shino and Daniel A Smith. 
       Vote Choice During a Pandemic: How Health Concerns Shaped the 2020 Presidential Election. Palgrave, 2023, pp. 139–159.
