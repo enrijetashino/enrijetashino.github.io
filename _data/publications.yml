@@ -41,9 +41,6 @@ publications:
     year: 2025
     type: peer-reviewed-paper
     venue: Political Research Quarterly
-    badges:
-      - article summary
-    bibtex_id: moreno_tag_2023
     bibtex: |
       ```
 
