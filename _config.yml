@@ -1,0 +1,21 @@
+
+# Site settings
+title: "Alexander Lalejini"
+email: amlalejini@gmail.com
+
+include:
+  - _pages
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+    
+plugins:
+  - jekyll-sitemap
