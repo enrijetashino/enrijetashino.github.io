@@ -1,6 +1,5 @@
 # publications.yml lists both publication types and publications
 
-# Types of publication (in order of listing on page)
 publication_types:
   - type_id: pre-pub
     pretty: Pre-publication
@@ -16,63 +15,60 @@ publication_types:
   - type_id: misc
     pretty: Miscellaneous
     overview: |
-      Miscellaneous publications that are not peer reviewed.
-
-################################
-# Listing of publications
-################################
-# Valid fields
-# - citation
-# - year
-# - venue
-# - type
-# - badges
-# - presentation_link
-# - link
-# - pdf
-# - bibtex_id
-# - bibtex
+      Miscellaneous publications that are not peer-reviewed.
 
 publications:
-
   - citation: |
-      Enrijeta Shino and Daniel A. Smith. (2025).
-      Vote Method and Confidence in Elections
+      Enrijeta Shino and Daniel A. Smith. (2025). Vote Method and Confidence in Elections.
     year: 2025
     type: peer-reviewed-paper
     venue: Political Research Quarterly
     bibtex: |
-      ```
-
-      ```
+      @article{Shino2025,
+        author = {Enrijeta Shino and Daniel A. Smith},
+        title = {Vote Method and Confidence in Elections},
+        journal = {Political Research Quarterly},
+        year = {2025},
+        volume = {12},
+        pages = {1-20}
+      }
 
   - citation: |
-      M. V. Hood III, Seth C. McKee, Enrĳeta Shino, and Daniel A. Smith. “Not a Teammate and Not a Fan: Probing the Identities of Unaffiliated Registered Voters. (2025)
+      M. V. Hood III, Seth C. McKee, Enrijeta Shino, and Daniel A. Smith. "Not a Teammate and Not a Fan: Probing the Identities of Unaffiliated Registered Voters." (2025)
     year: 2025
     type: peer-reviewed-paper
     venue: State Politics and Policy Quarterly
     bibtex: |
-      ```
+      @article{Hood2025,
+        author = {M. V. Hood III and Seth C. McKee and Enrijeta Shino and Daniel A. Smith},
+        title = {Not a Teammate and Not a Fan: Probing the Identities of Unaffiliated Registered Voters},
+        journal = {State Politics and Policy Quarterly},
+        year = {2025}
+      }
 
-      ```
-
-  - citation: | 
-    Seth C. McKee, M. V. Hood III, Robert Lupton, Enrĳeta Shino, and Daniel A. Smith. “The Changing South in Presidential Elections”. Party Politics (2024), Forthcoming.
+  - citation: |
+      Seth C. McKee, M. V. Hood III, Robert Lupton, Enrijeta Shino, and Daniel A. Smith. "The Changing South in Presidential Elections." Party Politics (2024), Forthcoming.
     year: 2024
     type: peer-reviewed-paper
-    venue: Party Politics 
+    venue: Party Politics
     bibtex: |
-      ```
-      
-      ```
-    
+      @article{McKee2024,
+        author = {Seth C. McKee and M. V. Hood III and Robert Lupton and Enrijeta Shino and Daniel A. Smith},
+        title = {The Changing South in Presidential Elections},
+        journal = {Party Politics},
+        year = {2024}
+      }
+
   - citation: |
-      Enrĳeta Shino and Daniel A Smith. 
-      Vote Choice During a Pandemic: How Health Concerns Shaped the 2020 Presidential Election. Palgrave, 2023, pp. 139–159.
+      Enrijeta Shino and Daniel A. Smith. Vote Choice During a Pandemic: How Health Concerns Shaped the 2020 Presidential Election. Palgrave, 2023, pp. 139–159.
     year: 2023
     venue: book
     type: book-chapter
     bibtex: |
-      ```
-      
-      ```
+      @inbook{Shino2023,
+        author = {Enrijeta Shino and Daniel A. Smith},
+        title = {Vote Choice During a Pandemic: How Health Concerns Shaped the 2020 Presidential Election},
+        booktitle = {Palgrave},
+        year = {2023},
+        pages = {139-159}
+      }
