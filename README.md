@@ -214,12 +214,6 @@ to generate listing of publications.
 - [pubs/](./pubs/)
   - Contains .pdf versions of my publications available to download.
 
-## Acknowledgements
-
-- [Publications iconography](https://lalejini.com/publications/) idea from [Emily Dolson](emilyldolson.com/)
-- [Blog layout/configuration](https://lalejini.com/blog/) from [Matthew Andres Moreno](https://mmore500.com/)
-- Letter of recommendation information adapted from [Charles Ofria](ofria.com) and [Josh Nahum](http://www.nahum.us)
-
 ## License
 
 This site's source code is MIT Licensed, but the website content is not.
