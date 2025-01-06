@@ -100,7 +100,7 @@ publications:
   type: peer-reviewed-article
   venue: journal
 
-  - citation: |
+- citation: |
     Enrijeta Shino, Daniel A. Smith, and Laura Uribe. "Lying for Trump? Elite Cue-Taking and Expressive Responding on Vote Method." 
     <span style="font-weight: 500;">Public Opinion Quarterly</span> 86.4 (2022), pp. 837–861.
   year: 2022
@@ -110,7 +110,7 @@ publications:
 - citation: |
     Seth McKee, Enrijeta Shino, and Daniel A. Smith. "Redrawn, Withdrawn: The Effects of Redistricting on the Representative-Constituent Relationship." 
     <span style="font-weight: 500;">Election Law Journal</span> (2022). 
-    doi: <http://doi.org/10.1089/elj.2022.0027>
+    doi: <https://doi.org/10.1089/elj.2022.0027>
   year: 2022
   type: peer-reviewed-article
   venue: journal
@@ -130,3 +130,4 @@ publications:
   year: 2021
   type: peer-reviewed-article
   venue: journal
+
