@@ -85,3 +85,10 @@ publications:
   year: 2024
   type: peer-reviewed-article
   venue: journal
+  
+- citation: |
+    Enrijeta Shino, Seth C. McKee, and Michael Binder. "Voter Habituation and Opinion Activation in Misreporting Voting Behavior in the 2020 Presidential Election." 
+    <span style="font-weight: 500;">Social Science Journal</span> (2023), pp. 1–28.
+  year: 2023
+  type: peer-reviewed-article
+  venue: journal
