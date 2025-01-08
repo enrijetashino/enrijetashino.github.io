@@ -36,17 +36,18 @@ publication_types:
 
 publications:
 
-- citation: |
-    Enrijeta Shino and Daniel A. Smith. "Vote Method and Confidence in Elections." 
-    <span style="font-weight: 500;">Political Research Quarterly</span> (2025), Forthcoming.
-  year: 2025
-  type: peer-reviewed-article
-  venue: journal
 
 - citation: |
     M. V. Hood III, Seth C. McKee, Enrijeta Shino, and Daniel A. Smith. "Not a Teammate and Not a Fan: 
     Probing the Identities of Unaffiliated Registered Voters." 
     <span style="font-weight: 500;">State Politics and Policy Quarterly</span> (2025), Forthcoming.
+  year: 2025
+  type: peer-reviewed-article
+  venue: journal
+
+  - citation: |
+    Enrijeta Shino and Daniel A. Smith. "Vote Method and Confidence in Elections." 
+    <span style="font-weight: 500;">Political Research Quarterly</span> (2025), Forthcoming.
   year: 2025
   type: peer-reviewed-article
   venue: journal
