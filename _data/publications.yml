@@ -33,24 +33,23 @@ publication_types:
 # - bibtex_id
 # - bibtex
 
-
 publications:
+  - citation: |
+      Alessandro Del Ponte, Enrijeta Shino, Joshua C. Gellers, and Heather Barns Truelove. 
+      “Personal Damage from Tropical Disasters Increases Republicans Support for Climate Change Policies.” 
+      *Journal of Environmental Psychology* (2025), Forthcoming.
+    year: 2025
+    type: peer-reviewed-article
+    venue: journal
 
-- citation: |
-    Alessandro Del Ponte, Enrijeta Shino, Joshua C. Gellers, and Heather Barns Truelove. “Personal Damage from Tropical Disasters Increases Republicans Support for Climate Change Policies”
-    <span style="font-weight: 500;">Journal of Environmental Psychology</span> (2025), Forthcoming.
-  year: 2025
-  type: peer-reviewed-article
-  venue: journal
-
-- citation: |
-    M. V. Hood III, Seth C. McKee, Enrijeta Shino, and Daniel A. Smith. "Not a Teammate and Not a Fan: 
-    Probing the Identities of Unaffiliated Registered Voters." 
-    <span style="font-weight: 500;">State Politics and Policy Quarterly</span> (2025), Forthcoming.
-  year: 2025
-  type: peer-reviewed-article
-  venue: journal
-
+  - citation: |
+      M. V. Hood III, Seth C. McKee, Enrijeta Shino, and Daniel A. Smith. 
+      "Not a Teammate and Not a Fan: Probing the Identities of Unaffiliated Registered Voters." 
+      *State Politics and Policy Quarterly* (2025), Forthcoming.
+    year: 2025
+    type: peer-reviewed-article
+    venue: journal
+    
   - citation: |
     Enrijeta Shino and Daniel A. Smith. "Vote Method and Confidence in Elections." 
     <span style="font-weight: 500;">Political Research Quarterly</span> (2025), Forthcoming.
