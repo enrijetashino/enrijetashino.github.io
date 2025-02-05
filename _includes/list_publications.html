@@ -1,7 +1,6 @@
 <!-- Debugging Output -->
 <p>Debug Output: {{ site.data.publications | inspect }}</p>
 
-<!-- Check if publications are available -->
 {% assign sorted_pubs = site.data.publications.publications | default: "" %}
 
 {% if sorted_pubs == "" %}
@@ -13,13 +12,13 @@
 
   <ul class="fa-ul">
     {% for pub in sorted_pubs %}
-      {% if pub.citation and pub.year %}  <!-- Ensure both fields exist to prevent errors -->
+      {% if pub.citation and pub.year %}
         {% assign pub_number = total_pubs | minus: forloop.index0 %}
         <li>
-          <strong>[{{ pub_number }}]</strong> {{ pub.citation | markdownify }}
+          <strong>[{{ pub_number }}]</strong> {{ pub.citation }}
         </li>
       {% else %}
-        <p><strong>Warning:</strong> Skipping an entry due to missing fields.</p>
+        <p>⚠️ <strong>Skipping an entry:</strong> Missing fields (citation or year).</p>
       {% endif %}
     {% endfor %}
   </ul>
