@@ -2,24 +2,32 @@
 layout: default
 ---
 
-<!-- Page header -->
-<div class="jumbotron jumbotron-fluid py-4">
+<!-- Page Header with Improved Styling -->
+<div class="jumbotron jumbotron-fluid py-4 text-center" style="background: linear-gradient(135deg, #007bff, #6610f2); color: white;">
   <div class="container">
-    <h1 class="display-4">{{ page.title }}</h1>
+    <h1 class="display-4 font-weight-bold">{{ page.title }}</h1>
     <div class="lead">
       {{ page.jumbo_txt | markdownify }}
     </div>
   </div>
 </div>
 
-<!-- Publication page content -->
+<!-- Publication Page Content -->
 <div class="container">
 
-  <!-- This next enumerates all publications listed in publications.yml by category. -->
-  <div class="row">
-    <div class="col">
+  <!-- Section Title -->
+  <div class="row mb-4">
+    <div class="col text-center">
+      <h2 class="font-weight-bold text-primary">Publications</h2>
+      <hr class="w-50 mx-auto">
+    </div>
+  </div>
+
+  <!-- List All Publications from publications.yml -->
+  <div class="row justify-content-center">
+    <div class="col-lg-10 col-md-12">
       {% include list_publications.html header_level="2" %}
     </div>
   </div>
 
-</div>
+</div> <!-- End Container -->
