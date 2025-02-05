@@ -1,12 +1,11 @@
-<!-- Debugging: Check if YAML data is loading -->
-<p>Debug: {{ site.data.publications | inspect }}</p>
+<!-- Debugging Output -->
+<p>Debug Output: {{ site.data.publications | inspect }}</p>
 
-{% assign sorted_pubs = site.data.publications.publications | default: "" %}
+{% assign sorted_pubs = site.data.publications['publications'] | sort: "year" | reverse %}
 
 {% if sorted_pubs == "" %}
   <p><strong>Error:</strong> No publications found. Make sure <code>_data/publications.yml</code> is correctly formatted.</p>
 {% else %}
-  {% assign sorted_pubs = sorted_pubs | sort: 'year' | reverse %}
   {% assign total_pubs = sorted_pubs.size %}
 
   <ul class="fa-ul">
