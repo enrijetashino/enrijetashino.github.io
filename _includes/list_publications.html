@@ -1,67 +1,20 @@
-{% assign sorted_pubs = site.data.publications.publications | sort: 'year' | reverse %}
-{% assign total_pubs = sorted_pubs.size %}
+<!-- Debugging: Check if YAML data is loading -->
+<p>Debug: {{ site.data.publications | inspect }}</p>
 
-<ul class="fa-ul"> <!-- Using font awesome list styling -->
-  {% for pub in sorted_pubs %}
-    {% assign pub_number = total_pubs | minus: forloop.index0 %}
-    <li>
-      <strong>[{{ pub_number }}]</strong> <!-- Numbering starts from highest -->
-      
-      {% if pub.venue %}
-        {% case pub.venue %}
-          {% when 'book' %}
-            {{ site.data.icons.venue_book_bullet }}
-          {% when 'conference' %}
-            {{ site.data.icons.venue_conference_bullet }}
-          {% when 'workshop' %}
-            {{ site.data.icons.venue_workshop_bullet }}
-          {% when 'journal' %}
-            {{ site.data.icons.venue_journal_bullet }}
-          {% when 'preprint' %}
-            {{ site.data.icons.venue_preprint_bullet }}
-          {% else %}
-            {{ site.data.icons.venue_unknown_bullet }}
-        {% endcase %}
-      {% else %}
-        {{ site.data.icons.venue_unknown_bullet }}
-      {% endif %}
+{% assign sorted_pubs = site.data.publications.publications | default: "" %}
 
-      <p>
-        {{ pub.citation | markdownify | remove: '<p>' | remove: '</p>' | replace: "Enrijeta Shino", "<b>Enrijeta Shino</b>" }}
-        <br/>
+{% if sorted_pubs == "" %}
+  <p><strong>Error:</strong> No publications found. Make sure <code>_data/publications.yml</code> is correctly formatted.</p>
+{% else %}
+  {% assign sorted_pubs = sorted_pubs | sort: 'year' | reverse %}
+  {% assign total_pubs = sorted_pubs.size %}
 
-        {% for badge in pub.badges %}
-          <span class="badge badge-primary"> {{ badge }} </span>
-        {% endfor %}
-        
-        {% if pub.pdf %} <a href="{{ pub.pdf | relative_url }}">{{ site.data.icons.pdf_icon }}</a> {% endif %}
-        {% if pub.bibtex %}
-          <a href="#" data-toggle="modal" data-target="#{{ pub.bibtex_id }}">{{ site.data.icons.bibtex_icon }}</a>
-        {% endif %}
-        {% if pub.github_repository_link %} <a href="{{ pub.github_repository_link }}">{{ site.data.icons.github_repository_icon }}</a> {% endif %}
-        {% if pub.presentation_link %} <a href="{{ pub.presentation_link }}">{{ site.data.icons.presentation_icon }}</a> {% endif %}
-      </p>
-    </li>
-
-    {% if pub.bibtex %}
-      <div class="modal fade" id="{{ pub.bibtex_id }}" tabindex="-1" role="dialog" aria-labelledby="{{ pub.bibtex_id }}-label" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="{{ pub.bibtex_id }}-label">Cite</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              {{ pub.bibtex | markdownify }}
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    {% endif %}
-  {% endfor %}
-</ul>
+  <ul class="fa-ul">
+    {% for pub in sorted_pubs %}
+      {% assign pub_number = total_pubs | minus: forloop.index0 %}
+      <li>
+        <strong>[{{ pub_number }}]</strong> {{ pub.citation | markdownify }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
