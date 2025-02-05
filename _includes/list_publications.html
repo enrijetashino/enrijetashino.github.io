@@ -1,17 +1,8 @@
-<!-- Debugging Output -->
-<p>Debug Output: {{ site.data.publications | inspect }}</p>
-
-<!-- Load Publications -->
 {% assign sorted_pubs = site.data.publications.publications | sort: "year" | reverse %}
-
-<!-- Debug Sorted Data -->
-<p>Sorted Publications: {{ sorted_pubs | inspect }}</p>
 
 {% if sorted_pubs == "" or sorted_pubs == nil %}
   <p><strong>Error:</strong> No publications found. Check <code>_data/publications.yml</code> formatting.</p>
 {% else %}
-  <p><strong>✅ Data Loaded Successfully! Displaying {{ sorted_pubs.size }} Publications</strong></p>
-
   <ul class="fa-ul">
     {% for pub in sorted_pubs %}
       {% if pub.citation and pub.year %}
@@ -19,8 +10,6 @@
         <li>
           <strong>[{{ pub_number }}]</strong> {{ pub.citation }}
         </li>
-      {% else %}
-        <p>⚠️ <strong>Skipping an entry:</strong> Missing fields (citation or year).</p>
       {% endif %}
     {% endfor %}
   </ul>
