@@ -1,19 +1,26 @@
 <!-- Debugging Output -->
 <p>Debug Output: {{ site.data.publications | inspect }}</p>
 
-{% assign sorted_pubs = site.data.publications['publications'] | sort: "year" | reverse %}
+<!-- Check if publications are available -->
+{% assign sorted_pubs = site.data.publications.publications | default: "" %}
 
 {% if sorted_pubs == "" %}
-  <p><strong>Error:</strong> No publications found. Make sure <code>_data/publications.yml</code> is correctly formatted.</p>
+  <p><strong>Error:</strong> No publications found. Check <code>_data/publications.yml</code> formatting.</p>
 {% else %}
+  <!-- Ensure sorting works correctly -->
+  {% assign sorted_pubs = sorted_pubs | sort: "year" | reverse %}
   {% assign total_pubs = sorted_pubs.size %}
 
   <ul class="fa-ul">
     {% for pub in sorted_pubs %}
-      {% assign pub_number = total_pubs | minus: forloop.index0 %}
-      <li>
-        <strong>[{{ pub_number }}]</strong> {{ pub.citation | markdownify }}
-      </li>
+      {% if pub.citation and pub.year %}  <!-- Ensure both fields exist to prevent errors -->
+        {% assign pub_number = total_pubs | minus: forloop.index0 %}
+        <li>
+          <strong>[{{ pub_number }}]</strong> {{ pub.citation | markdownify }}
+        </li>
+      {% else %}
+        <p><strong>Warning:</strong> Skipping an entry due to missing fields.</p>
+      {% endif %}
     {% endfor %}
   </ul>
 {% endif %}
