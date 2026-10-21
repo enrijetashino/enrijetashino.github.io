@@ -1,21 +1,21 @@
-
-# Site settings
-title: "Enrijeta Shino"
+title: Enrijeta Shino
+description: Assistant Professor of Political Science at the University of Alabama. Elections, voting behavior, public opinion, and political methodology.
+url: https://enrijetashino.github.io
 email: eshino@ua.edu
 
-include:
-  - _pages
+# Links shown at the top of the page
+scholar: https://scholar.google.com/citations?user=QnMWbkoAAAAJ
+github: https://github.com/enrijetashino
+twitter: https://twitter.com/enrijetashino
 
-sass:
-  sass_dir: _sass
-  style: compressed
+# Google Analytics (leave empty to turn off)
+google_analytics: G-7597WCFT6B
 
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
-    
 plugins:
   - jekyll-sitemap
+  - jekyll-redirect-from
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

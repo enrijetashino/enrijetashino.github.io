@@ -1,0 +1,35 @@
+# Working papers, grouped by theme. "status" is optional
+# (e.g. Under review, Revise and resubmit). When a paper is published,
+# delete it here and add it to the top of _data/publications.yml.
+
+- theme: Election reform and representation
+  papers:
+    - title: "Whose (Provisional) Vote Counts? Voter Identification Requirements, Provisional Voting, and Ballot Rejection Rates in American Counties"
+      coauthors: Joseph A. Coll and Matt Lamb
+    - title: "Negative Representation in the U.S. House, 1973–2022"
+      coauthors: Regina L. Wagner
+    - title: "Emotional Politics of Voting by Mail: Fraud vs. Administrative Practice in a Multi-Arm List Experiment"
+      coauthors: Daniel A. Smith
+
+- theme: Public opinion and policy preferences
+  papers:
+    - title: "Leader over Party? Political Knowledge and the Limits of Elite Persuasion"
+      coauthors: Regina L. Wagner
+    - title: "Fraud for Me, Not for Thee: How Partisanship Shapes Responses to Election Fraud"
+      coauthors: Joseph A. Coll
+      status: Under review
+    - title: "Race, Resentment, and Perceptions of Electoral Integrity in the United States"
+      coauthors: Joseph A. Coll and Sean Freeder
+      status: Revise and resubmit
+    - title: "Pay Your Debt? How Perceived Race and Deservingness Affect Support for Student Loan Forgiveness"
+      coauthors: Alessandro Del Ponte and Sean Freeder
+    - title: "Personal Damage from Tropical Disasters Increases Support for Climate Change Policies among Individualists and Hierarchists"
+      coauthors: Alessandro Del Ponte, Josh Gellers, and Heather Barnes Truelove
+      status: Revise and resubmit
+
+- theme: Political and survey methodology
+  papers:
+    - title: "Vote Method and Confidence: An Instrumental Variable Approach"
+    - title: "The Effect of Political Knowledge on Turnout: A Nonparametric Bounds Approach"
+      coauthors: Armand Kapllani
+      status: Under review

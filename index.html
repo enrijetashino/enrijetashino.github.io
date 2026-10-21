@@ -1,0 +1,213 @@
+---
+# The whole site is this one page. Edit the bio below; publications,
+# working papers and media live in the _data folder.
+
+bio: |
+  I study elections, voting behavior, public opinion, and political methodology.
+  I am also a Faculty Affiliate at the University of Alabama's Institute for
+  Social Science Research.
+
+  My research has been published in journals including *Public Opinion Quarterly*,
+  *Political Science Quarterly*, *Political Science Research and Methods*,
+  *Political Research Quarterly*, *State Politics and Policy Quarterly*,
+  *Journal of Elections, Public Opinion and Parties*, *Electoral Studies*,
+  *American Politics Research*, and *Journal of Survey Statistics and Methodology*.
+
+  My work has been covered by The Washington Post, The New York Times,
+  The Wall Street Journal, USA Today, Vox, Newsweek, and NPR.
+
+cv: /assets/cv_eshino.pdf
+photo: /assets/photo.jpg
+
+# Old page addresses that now point here
+redirect_from:
+  - /publications/
+  - /research/
+  - /cv/
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }} | Political Science, University of Alabama</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="canonical" href="{{ site.url }}/">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:url" content="{{ site.url }}/">
+  <meta property="og:image" content="{{ site.url }}{{ page.photo }}">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cellipse cx='16' cy='16' rx='14' ry='9' fill='%23234aa6'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+
+  {% if site.google_analytics and jekyll.environment == "production" %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
+  {% endif %}
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#top">Enrijeta Shino</a>
+      <nav aria-label="Sections">
+        <a href="#publications">Publications</a>
+        <a href="#working-papers">Working papers</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#media">Media</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cv" href="{{ page.cv | relative_url }}">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+
+    <section class="intro" id="top">
+      <img class="portrait" src="{{ page.photo | relative_url }}" width="720" height="900"
+           alt="Portrait of Enrijeta Shino">
+      <div class="intro-text">
+        <h1>Enrijeta Shino</h1>
+        <p class="role">Assistant Professor of Political Science<br>The University of Alabama</p>
+        <div class="bio">{{ page.bio | markdownify }}</div>
+        <p class="actions">
+          <a class="button" href="{{ page.cv | relative_url }}">Download CV (PDF)</a>
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          <a href="{{ site.scholar }}">Google Scholar</a>
+          <a href="{{ site.github }}">GitHub</a>
+          <a href="{{ site.twitter }}">X (Twitter)</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <p class="lede">Titles link to the published article.</p>
+
+      <h3>Peer-reviewed articles</h3>
+      {% assign years = site.data.publications.articles | group_by: "year" %}
+      {% for group in years %}
+      <div class="year-group">
+        <p class="year">{{ group.name }}</p>
+        <ul class="entries">
+          {% for p in group.items %}
+          <li>
+            {% if p.doi %}<a class="title" href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>{% else %}<span class="title">{{ p.title }}</span>{% endif %}
+            <span class="authors">{{ p.authors | replace: "Enrijeta Shino", '<span class="me">Enrijeta Shino</span>' }}</span>
+            <span class="venue"><em>{{ p.journal }}</em>{% if p.volume %} {{ p.volume }}{% if p.pages %}: {{ p.pages }}{% endif %}{% elsif p.pages %}, pp. {{ p.pages }}{% endif %}{% if p.note %}. {{ p.note }}{% endif %}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+
+      <h3>Book chapters and reviews</h3>
+      {% assign years = site.data.publications.chapters | group_by: "year" %}
+      {% for group in years %}
+      <div class="year-group">
+        <p class="year">{{ group.name }}</p>
+        <ul class="entries">
+          {% for p in group.items %}
+          <li>
+            <span class="title">{{ p.title }}</span>
+            <span class="authors">{{ p.authors | replace: "Enrijeta Shino", '<span class="me">Enrijeta Shino</span>' }}</span>
+            <span class="venue">{{ p.publisher }}{% if p.pages %}, pp. {{ p.pages }}{% endif %}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </section>
+
+    <section id="working-papers">
+      <h2>Working papers</h2>
+      {% for theme in site.data.working_papers %}
+      <h3>{{ theme.theme }}</h3>
+      <ul class="entries papers">
+        {% for p in theme.papers %}
+        <li>
+          <span class="title">{{ p.title }}</span>
+          {% if p.coauthors or p.status %}
+          <span class="authors">{% if p.coauthors %}With {{ p.coauthors }}{% endif %}{% if p.status %}<span class="status">{{ p.status }}</span>{% endif %}</span>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      {% endfor %}
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching</h2>
+      <div class="teaching">
+        <div>
+          <h3>University of Alabama <span class="dates">2022–present</span></h3>
+          <ul class="courses">
+            <li><span class="code">PSC 611</span> Political Behavior <span class="level">graduate</span></li>
+            <li><span class="code">PSC 616</span> Election Reform in America <span class="level">graduate</span></li>
+            <li><span class="code">PSC 411</span> Public Opinion</li>
+            <li><span class="code">PSC 375</span> Election Reform in America</li>
+            <li><span class="code">PSC 373</span> Political Participation</li>
+          </ul>
+        </div>
+        <div>
+          <h3>University of North Florida <span class="dates">2019–2022</span></h3>
+          <ul class="courses">
+            <li><span class="code">PAD 6706</span> Research Analysis <span class="level">graduate</span></li>
+            <li><span class="code">PAD 5700</span> Research Methods <span class="level">graduate</span></li>
+            <li><span class="code">POS 3734</span> Research Analysis</li>
+            <li><span class="code">POS 3733</span> Research Design</li>
+            <li><span class="code">POS 2041</span> American Federal Government</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="media">
+      <h2>Media</h2>
+      <p class="lede">Selected coverage. The full list is in the <a href="{{ page.cv | relative_url }}">CV</a>.</p>
+      <ul class="press">
+        {% for m in site.data.media %}
+        <li>
+          <span class="outlet">{{ m.outlet }}</span>
+          {% if m.url %}<a class="headline" href="{{ m.url }}">{{ m.headline }}</a>{% else %}<span class="headline">{{ m.headline }}</span>{% endif %}
+          <span class="press-year">{{ m.year }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <dl class="contact">
+        <dt>Email</dt>
+        <dd><a href="mailto:{{ site.email }}">{{ site.email }}</a></dd>
+        <dt>Office</dt>
+        <dd>326 ten Hoor Hall<br>Department of Political Science<br>The University of Alabama<br>Tuscaloosa, Alabama</dd>
+        <dt>Elsewhere</dt>
+        <dd><a href="{{ site.scholar }}">Google Scholar</a>, <a href="{{ site.github }}">GitHub</a>, <a href="{{ site.twitter }}">X (Twitter)</a></dd>
+      </dl>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; {{ site.time | date: "%Y" }} Enrijeta Shino. Updated {{ site.time | date: "%B %Y" }}.</p>
+    </div>
+  </footer>
+</body>
+</html>

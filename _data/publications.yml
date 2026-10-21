@@ -1,63 +1,243 @@
-publications:
-  - citation: "Alessandro Del Ponte, Enrijeta Shino, Joshua C. Gellers, and Heather Barns Truelove. “Personal Damage from Tropical Disasters Increases Republicans' Support for Climate Change Policies.” *Journal of Environmental Psychology* (2025), Forthcoming."
-    year: 2025
+# Publications shown on the home page.
+# To add a paper, copy an entry, paste it at the TOP of the "articles" list,
+# and edit the fields. Leave out any field you don't have (e.g. volume, pages, doi).
+# "Enrijeta Shino" is bolded automatically in the author list.
 
-  - citation: "M. V. Hood III, Seth C. McKee, Enrijeta Shino, and Daniel A. Smith. \"Not a Teammate and Not a Fan: Probing the Identities of Unaffiliated Registered Voters.\" *State Politics and Policy Quarterly* (2025), Forthcoming."
-    year: 2025
+articles:
+  - year: 2026
+    authors: Joseph A. Coll, Enrijeta Shino, and Daniel A. Smith
+    title: "Laboratories of Electoral Democracies: What Have We Learned from a Quarter Century of Research on Voting and Elections in the American States?"
+    journal: State Politics and Policy Quarterly
+    doi: 10.1017/spq.2026.10035
 
-  - citation: "Enrijeta Shino and Daniel A. Smith. \"Vote Method and Confidence in Elections.\" *Political Research Quarterly* (2025), Forthcoming."
-    year: 2025
+  - year: 2026
+    authors: Enrijeta Shino, Joseph A. Coll, and Sean Freeder
+    title: "Partisan Bias in Mass Opinion of Electoral Malfeasance: Rates, Victims, Perpetrators, and Policy Solutions"
+    journal: Political Science Quarterly
+    doi: 10.1093/psquar/qqag004
 
-  - citation: "Seth C. McKee, M. V. Hood III, Robert Lupton, Enrijeta Shino, and Daniel A. Smith. \"The Changing South in Presidential Elections.\" *Party Politics* (2024), Forthcoming."
-    year: 2024
+  - year: 2026
+    authors: Seth C. McKee, Enrijeta Shino, and Daniel A. Smith
+    title: "Leader Motivated Behavior: Voting by Mail in the 2020 General Election"
+    journal: Public Opinion Quarterly
+    doi: 10.1093/poq/nfag018
 
-  - citation: "Michael P. McDonald, Enrijeta Shino, Daniel A. Smith, and Payton Lussier. \"Campus Voting during the COVID-19 Pandemic.\" *American Politics Research* 3.52 (2024), pp. 225–238."
-    year: 2024
+  - year: 2026
+    authors: Enrijeta Shino and Daniel A. Smith
+    title: "Validating Vote-by-Mail Ballots: The Subjective Nature of Signature Verification"
+    journal: Political Research Quarterly
+    doi: 10.1177/10659129261417974
 
-  - citation: "Sean Freeder and Enrijeta Shino. \"Access or Experience? Determinants of Distrust in US Elections.\" *American Politics Research* 2.52 (2024), pp. 97–111."
-    year: 2024
+  - year: 2025
+    authors: Enrijeta Shino and Joseph A. Coll
+    title: "The Effect of Mail Ballot Tracking on Egotropic Voter Confidence"
+    journal: Journal of Elections, Public Opinion and Parties
+    doi: 10.1080/17457289.2025.2584239
 
-  - citation: "Enrijeta Shino, Seth C. McKee, and Daniel A. Smith. \"The Fall of Trump: Mobilization and Vote Switching in the 2020 Presidential Election.\" *Political Science Research and Methods* 2.12 (2024), pp. 229–248."
-    year: 2024
+  - year: 2025
+    authors: M. V. Hood III, Seth C. McKee, Enrijeta Shino, and Daniel A. Smith
+    title: "Treating a Friend to Voter Registration in a Divided America"
+    journal: PLOS One
+    doi: 10.1371/journal.pone.0337176
 
-  - citation: "Michael P. McDonald, Juliana Mucci, Enrijeta Shino, and Daniel A. Smith. \"Method of Voting in the 2020 Presidential Election.\" *Election Law Journal* 23.1 (2024), pp. 1–18."
-    year: 2024
+  - year: 2025
+    authors: Enrijeta Shino, Regina L. Wagner, Michael Binder, and Adrienne Lerner
+    title: "The Power of the Leader: Party Approval and Institutional Trust"
+    journal: Party Politics
+    doi: 10.1177/13540688251322108
 
-  - citation: "Enrijeta Shino, Seth C. McKee, and Michael Binder. \"Voter Habituation and Opinion Activation in Misreporting Voting Behavior in the 2020 Presidential Election.\" *Social Science Journal* (2023), pp. 1–28."
-    year: 2023
+  - year: 2025
+    authors: Enrijeta Shino and Daniel A. Smith
+    title: "Vote Method and Confidence in Elections"
+    journal: Political Research Quarterly
+    doi: 10.1177/10659129241309658
 
-  - citation: "Enrijeta Shino, Daniel A. Smith, and LaRaven Temoney. \"The Effects of Election Administration Changes on Voters of Color in Florida.\" *Journal of Election Administration Research & Practice* 2.1 (2023), pp. 38–54."
-    year: 2023
+  - year: 2025
+    authors: Paul Gronke, Mindy S. Romero, Enrijeta Shino, and Daniel M. Thompson
+    title: "Vote-by-Mail in the United States"
+    journal: Journal of Election Administration Research & Practice
 
-  - citation: "Enrijeta Shino, Daniel A. Smith, and Laura Uribe. \"Lying for Trump? Elite Cue-Taking and Expressive Responding on Vote Method.\" *Public Opinion Quarterly* 86.4 (2022), pp. 837–861."
-    year: 2022
+  - year: 2025
+    authors: M. V. Hood III, Seth C. McKee, Enrijeta Shino, and Daniel A. Smith
+    title: "Not a Teammate and Not a Fan: Probing the Identities of Unaffiliated Registered Voters"
+    journal: State Politics and Policy Quarterly
+    doi: 10.1017/spq.2025.2
 
-  - citation: "Seth McKee, Enrijeta Shino, and Daniel A. Smith. \"Redrawn, Withdrawn: The Effects of Redistricting on the Representative-Constituent Relationship.\" *Election Law Journal* (2022). doi: <https://doi.org/10.1089/elj.2022.0027>"
-    year: 2022
+  - year: 2025
+    authors: Alessandro Del Ponte, Enrijeta Shino, Joshua C. Gellers, and Heather Barnes Truelove
+    title: "Personal Damage from Tropical Disasters Increases Republicans' Support for Climate Change Policies"
+    journal: Journal of Environmental Psychology
+    doi: 10.1016/j.jenvp.2025.102552
 
-  - citation: "Enrijeta Shino, Michael D. Martinez, and Michael Binder. \"Determined by Mode? Representation and Measurement Effects in a Dual-Mode Statewide Survey.\" *Journal of Survey Statistics and Methodology* 10.1 (2022), pp. 183–202. doi: <https://doi.org/10.1093/jssam/smab012>"
-    year: 2022
+  - year: 2024
+    authors: Seth C. McKee, M. V. Hood III, Robert Lupton, Enrijeta Shino, and Daniel A. Smith
+    title: "The Changing South in Presidential Elections"
+    journal: Party Politics
+    doi: 10.1177/13540688241284091
 
-  - citation: "Enrijeta Shino, Mara Suttmann-Lea, and Daniel A. Smith. \"Determinants of Rejected Mail Ballots in Georgia's 2018 General Election.\" *Political Research Quarterly* (2021), pp. 231–243. doi: <https://doi.org/10.1177/1065912921993537>"
-    year: 2021
+  - year: 2024
+    authors: Michael P. McDonald, Enrijeta Shino, Daniel A. Smith, and Payton Lussier
+    title: "Campus Voting during the COVID-19 Pandemic"
+    journal: American Politics Research
+    volume: 52(3)
+    pages: 225–238
+    doi: 10.1177/1532673X241230050
 
-  - citation: "Enrijeta Shino and Michael D. Martinez. \"The Different Faces of Public Opinion: Is the American Voter Tinted by Mode?\" *International Journal of Public Opinion Research* 33.4 (2021), pp. 756–778. doi: <https://doi.org/10.1093/ijpor/edab003>"
-    year: 2021
+  - year: 2024
+    authors: Enrijeta Shino, Seth C. McKee, and Daniel A. Smith
+    title: "The Fall of Trump: Mobilization and Vote Switching in the 2020 Presidential Election"
+    journal: Political Science Research and Methods
+    volume: 12(2)
+    pages: 229–248
+    doi: 10.1017/psrm.2023.40
 
-  - citation: "Enrijeta Shino and Daniel A. Smith. \"Pandemic Politics: COVID-19, Health Concerns, and Vote Choice in the 2020 General Election.\" *Journal of Elections, Public Opinion and Parties* 31 (2021), pp. 191–205. doi: <https://doi.org/10.1080/17457289.2021.1924734>"
-    year: 2021
+  - year: 2024
+    authors: Sean Freeder and Enrijeta Shino
+    title: "Access or Experience? Determinants of Distrust in US Elections"
+    journal: American Politics Research
+    volume: 52(2)
+    pages: 97–111
+    doi: 10.1177/1532673X231220921
 
-  - citation: "Enrijeta Shino and Daniel A. Smith. \"Political Knowledge and Convenience Voting.\" *Journal of Elections, Public Opinion and Parties* (2020), pp. 1–21. doi: <https://doi.org/10.1080/17457289.2020.1814308>"
-    year: 2020
+  - year: 2024
+    authors: Michael P. McDonald, Juliana Mucci, Enrijeta Shino, and Daniel A. Smith
+    title: "Mail Voting and Voter Turnout"
+    journal: Election Law Journal
+    volume: 23(1)
+    pages: 1–18
+    doi: 10.1089/elj.2022.0078
 
-  - citation: "Enrijeta Shino and Daniel A. Smith. \"Mobilizing the Youth Vote? Early Voting on College Campuses.\" *Election Law Journal* 19.4 (2020), pp. 524–541. doi: <https://doi.org/10.1089/elj.2019.0596>"
-    year: 2020
+  - year: 2023
+    authors: Enrijeta Shino, Seth C. McKee, and Michael Binder
+    title: "Voter Habituation and Opinion Activation in Misreporting Voting Behavior in the 2020 Presidential Election"
+    journal: The Social Science Journal
+    doi: 10.1080/03623319.2023.2277030
 
-  - citation: "Enrijeta Shino and Michael Binder. \"Defying the Rally During COVID-19 Pandemic: A Regression Discontinuity Approach.\" *Social Science Quarterly* 101.5 (2020), pp. 1979–1994. doi: <https://doi.org/10.1111/ssqu.12844>"
-    year: 2020
+  - year: 2023
+    authors: Enrijeta Shino, Daniel A. Smith, and LaRaven Temoney
+    title: "The Effects of Election Administration Changes on Voters of Color in Florida"
+    journal: Journal of Election Administration Research & Practice
+    volume: 2(1)
+    pages: 38–54
 
-  - citation: "Enrijeta Shino and Christopher McCarty. \"Telephone Survey Calling Patterns, Productivity, Survey Responses, and their Effect on Measuring Public Opinion.\" *Field Methods* 32.3 (2020), pp. 291–308. doi: <https://doi.org/10.1177/1525822X20908281>"
-    year: 2020
+  - year: 2022
+    authors: Enrijeta Shino, Daniel A. Smith, and Laura Uribe
+    title: "Lying for Trump? Elite Cue-Taking and Expressive Responding on Vote Method"
+    journal: Public Opinion Quarterly
+    volume: 86(4)
+    pages: 837–861
+    doi: 10.1093/poq/nfac045
 
-  - citation: "Enrijeta Shino and Daniel A. Smith. \"Timing the Habit: Voter Registration and Turnout.\" *Electoral Studies* 51 (2018), pp. 72–82. doi: <https://doi.org/10.1016/j.electstud.2017.10.005>"
-    year: 2018
+  - year: 2022
+    authors: Seth C. McKee, Enrijeta Shino, and Daniel A. Smith
+    title: "Redrawn, Withdrawn: The Effects of Redistricting on the Representative-Constituent Relationship"
+    journal: Election Law Journal
+    doi: 10.1089/elj.2022.0027
+
+  - year: 2022
+    authors: Enrijeta Shino, Michael D. Martinez, and Michael Binder
+    title: "Determined by Mode? Representation and Measurement Effects in a Dual-Mode Statewide Survey"
+    journal: Journal of Survey Statistics and Methodology
+    volume: 10(1)
+    pages: 183–202
+    doi: 10.1093/jssam/smab012
+
+  - year: 2021
+    authors: Enrijeta Shino, Mara Suttmann-Lea, and Daniel A. Smith
+    title: "Determinants of Rejected Mail Ballots in Georgia's 2018 General Election"
+    journal: Political Research Quarterly
+    pages: 231–243
+    doi: 10.1177/1065912921993537
+
+  - year: 2021
+    authors: Enrijeta Shino and Michael D. Martinez
+    title: "The Different Faces of Public Opinion: Is the American Voter Tinted by Mode?"
+    journal: International Journal of Public Opinion Research
+    volume: 33(4)
+    pages: 756–778
+    doi: 10.1093/ijpor/edab003
+
+  - year: 2021
+    authors: Enrijeta Shino and Daniel A. Smith
+    title: "Pandemic Politics: COVID-19, Health Concerns, and Vote Choice in the 2020 General Election"
+    journal: Journal of Elections, Public Opinion and Parties
+    volume: "31"
+    pages: 191–205
+    doi: 10.1080/17457289.2021.1924734
+
+  - year: 2021
+    authors: Anna Baringer, Justin Eichermuller, William Zelin, Enrijeta Shino, and Daniel A. Smith
+    title: "Election Administration and Public Records Responsiveness"
+    journal: Public Integrity
+    doi: 10.1080/10999922.2021.1932330
+
+  - year: 2020
+    authors: Enrijeta Shino and Daniel A. Smith
+    title: "Political Knowledge and Convenience Voting"
+    journal: Journal of Elections, Public Opinion and Parties
+    doi: 10.1080/17457289.2020.1814308
+
+  - year: 2020
+    authors: Enrijeta Shino and Daniel A. Smith
+    title: "Mobilizing the Youth Vote? Early Voting on College Campuses"
+    journal: Election Law Journal
+    volume: 19(4)
+    pages: 524–541
+    doi: 10.1089/elj.2019.0596
+
+  - year: 2020
+    authors: Enrijeta Shino, Michael D. Martinez, Michael P. McDonald, and Daniel A. Smith
+    title: "Verifying Voter Registration Records"
+    journal: American Politics Research
+    volume: 48(6)
+    pages: 677–681
+    note: Special Symposium on Election Sciences
+    doi: 10.1177/1532673X20920261
+
+  - year: 2020
+    authors: Enrijeta Shino and Michael Binder
+    title: "Defying the Rally During COVID-19 Pandemic: A Regression Discontinuity Approach"
+    journal: Social Science Quarterly
+    volume: 101(5)
+    pages: 1979–1994
+    doi: 10.1111/ssqu.12844
+
+  - year: 2020
+    authors: Enrijeta Shino and Christopher McCarty
+    title: "Telephone Survey Calling Patterns, Productivity, Survey Responses, and their Effect on Measuring Public Opinion"
+    journal: Field Methods
+    volume: 32(3)
+    pages: 291–308
+    doi: 10.1177/1525822X20908281
+
+  - year: 2018
+    authors: Enrijeta Shino and Daniel A. Smith
+    title: "Timing the Habit: Voter Registration and Turnout"
+    journal: Electoral Studies
+    volume: "51"
+    pages: 72–82
+    doi: 10.1016/j.electstud.2017.10.005
+
+# Book chapters and book reviews
+chapters:
+  - year: Forthcoming
+    authors: Enrijeta Shino and Seth C. McKee
+    title: "Voting Behavior and Participation: What Drives Us to the Polls"
+    publisher: De Gruyter
+
+  - year: 2023
+    authors: Enrijeta Shino and Daniel A. Smith
+    title: "Vote Choice During a Pandemic: How Health Concerns Shaped the 2020 Presidential Election"
+    publisher: Palgrave
+    pages: 139–159
+
+  - year: 2021
+    authors: Enrijeta Shino
+    title: "Review of Making Young Voters: Converting Civic Attitudes into Civic Action, by John B. Holbein and D. Sunshine Hillygus"
+    publisher: Oxford University Press
+
+  - year: 2020
+    authors: Enrijeta Shino
+    title: "Review of The Turnout Myth: Voting Rates and Partisan Outcomes in American National Elections, by Daron Shaw and John Petrocik"
+    publisher: Oxford University Press
+    pages: 1233–1234
