@@ -188,17 +188,6 @@ a.title:hover { color: var(--blue); text-decoration-color: currentColor; }
   .year-group + h3 { margin-top: 3rem; }
 }
 
-/* Working papers */
-
-.papers { margin-bottom: 0.5rem; }
-.status {
-  display: inline-block; margin-left: 0.6rem;
-  font: 600 0.75rem/1 var(--sans); color: var(--blue);
-  background: var(--mist); border-radius: 999px; padding: 0.3rem 0.6rem;
-  vertical-align: 0.1em;
-}
-.authors .status:first-child { margin-left: 0; }
-
 /* Teaching */
 
 .teaching { display: grid; gap: 0 3.5rem; }

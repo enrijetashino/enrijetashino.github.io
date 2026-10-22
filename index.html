@@ -1,6 +1,6 @@
 ---
-# The whole site is this one page. Edit the bio below; publications,
-# working papers and media live in the _data folder.
+# The whole site is this one page. Edit the bio below; publications
+# and media live in the _data folder.
 
 bio: |
   I study elections, voting behavior, public opinion, and political methodology.
@@ -64,7 +64,6 @@ redirect_from:
       <a class="wordmark" href="#top">Enrijeta Shino</a>
       <nav aria-label="Sections">
         <a href="#publications">Publications</a>
-        <a href="#working-papers">Working papers</a>
         <a href="#teaching">Teaching</a>
         <a href="#media">Media</a>
         <a href="#contact">Contact</a>
@@ -128,23 +127,6 @@ redirect_from:
           {% endfor %}
         </ul>
       </div>
-      {% endfor %}
-    </section>
-
-    <section id="working-papers">
-      <h2>Working papers</h2>
-      {% for theme in site.data.working_papers %}
-      <h3>{{ theme.theme }}</h3>
-      <ul class="entries papers">
-        {% for p in theme.papers %}
-        <li>
-          <span class="title">{{ p.title }}</span>
-          {% if p.coauthors or p.status %}
-          <span class="authors">{% if p.coauthors %}With {{ p.coauthors }}{% endif %}{% if p.status %}<span class="status">{{ p.status }}</span>{% endif %}</span>
-          {% endif %}
-        </li>
-        {% endfor %}
-      </ul>
       {% endfor %}
     </section>
 
