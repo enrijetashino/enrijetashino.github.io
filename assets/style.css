@@ -1,13 +1,13 @@
 /* Enrijeta Shino — site styles
    Public Sans (the U.S. Web Design System face) for names and headings,
-   Source Serif 4 for reading text. Ink blue taken from the portrait. */
+   Source Serif 4 for reading text. Accent is the University of Alabama crimson. */
 
 :root {
   --paper: #ffffff;
   --ink: #1b2232;
   --slate: #586176;
   --rule: #dde1e8;
-  --blue: #234aa6;
+  --blue: #9e1b32;   /* University of Alabama crimson */
   --mist: #eef1f6;
   --on-blue: #ffffff;
 
@@ -24,7 +24,7 @@
     --ink: #e8ebf1;
     --slate: #a3acbf;
     --rule: #2b3344;
-    --blue: #9db6ff;
+    --blue: #f08a99;   /* lightened crimson for dark mode */
     --mist: #1d2432;
     --on-blue: #0f1420;
   }
@@ -164,7 +164,12 @@ h3 {
 a.title { text-decoration-color: var(--rule); }
 a.title:hover { color: var(--blue); text-decoration-color: currentColor; }
 .authors, .venue { display: block; font-size: 0.975rem; color: var(--slate); line-height: 1.5; }
-.me { color: var(--ink); font-weight: 600; }
+.authors { margin-top: 0.3rem; }
+.links { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.3rem 1rem; margin-top: 0.45rem; font-size: 0.875rem; }
+.links a { color: var(--blue); font-weight: 600; text-decoration: none; border-bottom: 1px solid var(--blue); padding-bottom: 1px; }
+.links a:hover { text-decoration: none; }
+.links .dim { color: var(--slate); font-variant-numeric: tabular-nums; }
+.me { color: var(--blue); font-weight: 700; }
 
 /* The publication record, year by year */
 
