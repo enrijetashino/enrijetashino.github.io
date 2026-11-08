@@ -1,12 +1,14 @@
 # enrijetashino.github.io
 
 Personal academic website of Enrijeta Shino, published with GitHub Pages at
-<https://enrijetashino.com> (the old address, enrijetashino.github.io, forwards there).
+<https://www.enrijetashino.com>. Both enrijetashino.com and the old address,
+enrijetashino.github.io, forward there.
 
-The `CNAME` file tells GitHub to serve the site at enrijetashino.com; don't delete it.
+The `CNAME` file tells GitHub to serve the site at www.enrijetashino.com; don't delete it.
 The domain is registered at GoDaddy, whose DNS has four A records for `@`
-(185.199.108.153, .109.153, .110.153, .111.153) and a CNAME for `www` pointing to
-`enrijetashino.github.io`.
+(185.199.108.153, .109.153, .110.153, .111.153), a CNAME for `www` pointing to
+`enrijetashino.github.io`, and a TXT record `_github-pages-challenge-enrijetashino`
+that verifies the domain for the enrijetashino GitHub account. Keep all of them.
 
 The whole site is one page. Everything you might want to change is in one of these files:
 
